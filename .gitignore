@@ -18,8 +18,12 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Large data files
+# Large dataset files
+"HW4 (modified Spring 2025)/yelp_datasets.csv"
+
+# Other CSV files that should be ignored
 *.csv
+# Exceptions - smaller CSV files that should be tracked
 !colleges.csv
 !Salaries.csv
 !volcanoes.csv
