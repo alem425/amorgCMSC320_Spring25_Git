@@ -1,4 +1,29 @@
 # Exclude yelp datasets
 HW4*/yelp_datasets.csv
+"HW4 (modified Spring 2025)/yelp_datasets.csv"
 
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# VS Code settings
 .vscode/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data files
+*.csv
+!colleges.csv
+!Salaries.csv
+!volcanoes.csv
+!Interrogation_Statements.csv
+!Profiles.csv
+!Witness.csv
+!Zichao_s Magic Show.csv
